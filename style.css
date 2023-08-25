@@ -1,0 +1,37 @@
+.box1{
+   height: 300px;
+   width: 400px;
+   background-color: green;
+   position:absolute;
+  bottom:0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;   
+}
+
+.box2{
+    height: 150px;
+    width: 160px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom:0 ;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.box2{
+    margin: 200px 200px 200px 200px;
+    border-top: 5px solid green; 
+    padding: 10px 10px 10px 10px;
+    text-align: ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+
+}
