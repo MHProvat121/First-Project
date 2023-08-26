@@ -1,0 +1,132 @@
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (master)
+$ git add -A
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (master)
+$ git commit -m "First-Project"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'M.H.Provat@DESKTOP-S2CNOSE.(none)')
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (master)
+$ git branch -M main
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git remote add origin https://github.com/MHProvat121/First-Project.git
+error: remote origin already exists.
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/MHProvat121/First-Project.git'
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$
+ *  History restored 
+
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/MHProvat121/First-Project.git'
+------------------------(success process from here) ------------
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git add -A
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git commit -m "First-Project"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'M.H.Provat@DESKTOP-S2CNOSE.(none)')
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git config --global user.email "improvat6@gmail.com"
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git config --global user.name "MHProvat121"
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git commit -m "first commit"
+[main (root-commit) 31a2d31] first commit
+ 5 files changed, 213 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 git repository code.txt
+ create mode 100644 main.html
+ create mode 100644 practicingWithCss.html
+ create mode 100644 style.css
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git add -A
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git commit -m "first commit"
+On branch main
+nothing to commit, working tree clean
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git branch -M main
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+/Desktop/First-Project (main)       ub.com/MHProvat121/Fi
+$ git remote add origin https://gith
+ub.com/MHProvat121/Fi
+error: remote origin already exists./Desktop/First-Project (main)
+
+                                     in your browser...
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~
+/Desktop/First-Project (main)
+$ git push -u origin main           ads
+info: please complete authenticatione.
+ in your browser...                 B | 1.01 MiB/s, done.
+Enumerating objects: 7, done.       ), pack-reused 0
+Counting objects: 100% (7/7), done. rst-Project.git
+Delta compression using up to 2 thre
+ads                                 n/main'.
+Compressing objects: 100% (6/6), don
+e.                                  /Desktop/First-Project (main)
+Writing objects: 100% (7/7), 3.02 Ki
+B | 1.01 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0/Desktop/First-Project (main)
+), pack-reused 0
+To https://github.com/MHProvat121/Fi
+rst-Project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origi
+n/main'.
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git remote add origin https://github.com/MHProvat121/First-Project.giterror: remote origin already exists.
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+M.H.Provat@DESKTOP-S2CNOSE MINGW64 ~/Desktop/First-Project (main)
+$
+-----------------------------------------------------
+git account saved in pc: 
+Control Panel >user accounts >Credential Manager (Or derect search credential manager) > window credential > github
