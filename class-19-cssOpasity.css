@@ -1,0 +1,19 @@
+img:hover{
+    opacity:0.5; /*img er upor mouse dhorle japsa hobe*/
+
+}
+/*bacground er upore amra text k opacity korbo*/
+.bg{
+    width :700px;
+    height:400px ;
+    background: url(https://www.transparentpng.com/download/dancing-png/gCJ0pP-street-dance-carnival.png) no-repeat center;
+}
+
+.box p{
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    margin-top:100px ;
+    opacity: 0.5;
+
+}

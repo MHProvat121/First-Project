@@ -1,0 +1,16 @@
+.img1{
+    width:400px;
+float: right;
+}
+.p1{
+
+clear: right;/*lekha float er left theke shuru*/
+}
+.img2{
+    width:400px;
+float: left;
+}
+.p2{
+
+clear: right; /*lekha float er right theke shuru*/
+}

@@ -1,0 +1,17 @@
+h2:first-child{
+    color:green;
+  }
+  
+    
+    h2:nth-child(3){ /* nth-child mane holo same tag onek thakle koto tomo tag ta bujhanor jonno*/
+    color:red;
+
+}
+p::first-line{
+    color:red;
+    font-size: 20px;
+}
+
+h2:nth-child(2)::before{ /*2 no h2 er age pic lagailam*/
+    content:url(https://images.unsplash.com/photo-1530092285049-1c42085fd395?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+}

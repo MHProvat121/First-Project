@@ -1,0 +1,25 @@
+/*css e 140 ta color ase */
+h1{
+    color: rgb(0,0,255); /*red 0, green 0 , 255 blue tai full blue, ar ekhan theke value komano baranor fole opacity kombe barbe */
+}
+/*rgb (red green blue) <jekono color er highest value 255 porjonto er pore ar etar value nai error dibe>*/
+h2{
+    color: rgb(0,0,155);
+}
+h3{/*hexa color*/
+    color: #fff012;
+}
+
+.box1 {
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(red, green); /* direct color values */
+}
+
+.box2 {
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(rgba(0, 0, 255, 1), rgba(0, 0, 255, 0)); /* rgba color values with color stops */
+}
+
+

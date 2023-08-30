@@ -1,0 +1,22 @@
+h1{
+
+    text-align: center  ;
+    font-size: 50px;
+    /*x(dane bame) y(upre niche) <x,y dutai age use korte hobe> blur color*/
+    text-shadow: -5px -5px 5px blue ; /*x=5px y=5px 5px blur color red*/
+   
+}
+
+.box1{ /*output ta shundor ase check it*/
+width: 400px;
+height: 500px;
+text-align: center;
+margin: auto;
+border: 1px solid rgb(0,0,0,0.5);
+box-shadow: 5px 5px 5px gray,
+-5px -5px 5px gray;
+}
+
+.box1 img{ /*only image er widht barano*/
+width:100%;
+}
