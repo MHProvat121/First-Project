@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.box{
+height: 400px;
+width:500px;
+background-color: tomato;
+color: white;
+transform: rotate(45deg); /*transform er ar ja ja value ache
+1. scale() er kaj holo element er size gun boro kora boro choto kora
+2.scalex() x okko borabor koto gun , scaley() y okko borabor koto gun
+3.skew() ekta shape
+4. translate() {contains x y} 2 ta value dile x o y okkho borabor upora niche nambe
+*/
+
+}
+.box h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: arial helvetica, sans-serif;
+    position: relative;
+}

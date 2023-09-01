@@ -1,0 +1,22 @@
+.box{
+    height: 400px;
+    width: 500px;
+    background-color: tomato;
+    margin: 100px auto;
+    
+   /*
+    transition-property: all;
+    transition-delay:1s;
+    transition-duration: 0.5s;
+  transition-timing-function  : cubic-bezier(.17,.67,.83,.67);
+  */
+  transition : all 0.5s linear;
+}
+
+.box:hover{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: green;
+transform: rotate(180deg);
+}
