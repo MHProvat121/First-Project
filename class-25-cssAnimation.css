@@ -46,3 +46,51 @@ height: 200px;
       .text{
         font-size: 30px;
       }
+
+      .bar{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+      }
+      .point1{
+        height: 5px;
+        width: 5px;
+        background-color: gray;
+        border-radius: 50%;
+        animation: point1 1s infinite forwards;  
+        margin: 5px 5px;
+      }
+      @keyframes point1 {
+        100%{transform: scale(2);}
+        
+      }
+      .point2{
+          height: 5px;
+          width: 5px;
+          background-color: gray;
+          border-radius: 50%;
+          animation: point2 1s infinite forwards;  
+          margin: 5px 10px;
+        }
+        @keyframes point2 {
+          50%{transform: scale(2);}
+          100%{transform: scale(3);}
+      }
+    
+      .point3{
+        
+          height: 5px;
+          width: 5px;
+          background-color: gray;
+          border-radius: 50%;
+          animation: point3 1s infinite forwards;  
+          margin: 5px 10px;
+        }
+       
+        @keyframes point3 {
+          0%{transform: scale(2);}
+          50%{transform: scale(3);}
+          100%{transform: scale(4);}
+      }
+    
