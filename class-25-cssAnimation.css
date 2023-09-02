@@ -3,5 +3,46 @@
     width: 400px;
     margin: 100px auto; /*In CSS, the margin property is used to control the spacing around an element. The value 100px auto; is a shorthand notation that sets the top and bottom margins to 100 pixels and the left and right margins to auto. Let's break it down:*/
     border: 15px solid green;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: box 2s infinite forwards;
+}
+@keyframes box{
+0%{border-color: red; transform: scale(1);}
+25%{border-color: green;transform: scale(1.1);}
+50%{border-color: blue;transform:scale(1.2);}
+75%{border-color: yellow; transform: scale(1.3);}
+100%{border-color: tomato; transform: scale3d(1.4);}
 
 }
+.circle{
+height: 200px;
+    width: 200px;
+    margin: 100px auto; /*In CSS, the margin property is used to control the spacing around an element. The value 100px auto; is a shorthand notation that sets the top and bottom margins to 100 pixels and the left and right margins to auto. Let's break it down:*/
+    background-color:  green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: circle 2s infinite forwards; /*when you apply animation: circle 2s infinite forwards; to an HTML element, it means that the "circle" animation will be applied to that element. The animation will run for 2 seconds, repeat indefinitely, and the final state of the animation will be retained after each cycle.*/
+}
+  
+ 
+    @keyframes circle {
+        0% {
+          background-color: lightgreen;
+          transform: rotate(45deg);
+        }
+        50% {
+            background-color: lightblue;
+          transform: rotate(180deg);
+        }
+        100% {
+            background-color: lightcoral;
+          transform: rotate(360deg);
+        }
+      }
+      .text{
+        font-size: 30px;
+      }
