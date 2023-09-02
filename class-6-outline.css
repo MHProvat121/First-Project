@@ -1,0 +1,17 @@
+p{
+    border: 5px solid red;
+    outline-width: 5px;
+    /* outline style aro ase */
+    outline-style: dotted;
+   outline-color: green;
+   /* outline theke border er gap baray offset */
+    outline-offset:5px;
+    margin-top: 50px;   
+}
+
+h1{
+    border: 5px solid red;
+    outline: 5px solid blue;
+    outline-offset:2px;
+    
+}

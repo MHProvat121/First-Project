@@ -1,0 +1,15 @@
+h1{
+    
+    color:red;
+    background-color: black;
+    text-align:center;
+    
+}
+p{
+    color:blue;
+    text-transform:uppercase; /* lowercase,capitalized kora jay*/
+    text-indent:25px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    line-height: 10px;
+}

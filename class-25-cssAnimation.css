@@ -1,0 +1,7 @@
+.box{
+    height: 400px;
+    width: 400px;
+    margin: 100px auto; /*In CSS, the margin property is used to control the spacing around an element. The value 100px auto; is a shorthand notation that sets the top and bottom margins to 100 pixels and the left and right margins to auto. Let's break it down:*/
+    border: 15px solid green;
+
+}

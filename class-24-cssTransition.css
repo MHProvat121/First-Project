@@ -8,8 +8,8 @@
     transition-property: all;
     transition-delay:1s;
     transition-duration: 0.5s;
-  transition-timing-function  : cubic-bezier(.17,.67,.83,.67);
-  */
+  transition-timing-function  : cubic-bezier(.17,.67,.83,.67); /*in out, other value*/
+ 
   transition : all 0.5s linear;
 }
 

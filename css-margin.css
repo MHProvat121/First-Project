@@ -1,0 +1,59 @@
+.mar{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid red;
+    margin-top: 80px;
+    margin-left:50px;
+    margin-right:60px;
+    margin-bottom' 60px;
+}
+
+/* shbdike 50 px sorbe */
+.mar1{
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+    border: 5px solid red;
+    margin:50 px
+    
+}
+
+/* 50px top bottom,  70 px left right */
+.mar2{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border: 5px solid red;
+  margin: 50px 70px  
+}
+
+
+/* 50px top ,  70 px left right,  90px bottom*/
+.mar3{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid red;
+    margin: 50px 70px 90px;
+}
+
+
+/* 50px top ,  70 px right,  90px bottom 100px left*/
+.mar4{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border: 5px solid red;
+    margin: 50px 70px 90px 100px;
+    
+}
+
+/* shbdike auto set hbe. */
+.mar5{
+width: 500px;
+    height: 500px;
+    background-color: green;
+    border: 5px solid red;
+    margin:auto;
+}

@@ -1,0 +1,7 @@
+h1{
+    font-family: times new roman;
+    font-weight: 1000;/* bold or thin korte */
+    font-style:italic; /* normal,bold etc */
+    font-size: 5vw; /* viewport holo browser er shrink er loge nijere shrink kora,big korle big kora.. ro unit ase px(fixed),em(element pixel er upor fixed),rm(Total html er upor fixed) */
+}
+

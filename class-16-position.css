@@ -1,0 +1,17 @@
+.box1{
+    width:600px;
+    height:500px;
+    background-color:green;
+    position:absolute;/* absolute holo fixed position (body er shapekkhe), fixed o ase, ar relative holo je element ase jmn box1 ekta property oitar shapekkhe */
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border-radius: 50%; /* border k gol banate */
+    margin:auto;
+}
+.p1{
+    position:sticky; /* fixed,absolute ase */
+    top:0;
+    
+}

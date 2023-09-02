@@ -1,0 +1,10 @@
+h3{ //h3 ke lal nil korlam
+    color:red;
+    background-color:green;  
+}
+body{//body er modde nicher kajgula korlam
+    background-color:green;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu2vV_muUFqnHSbiBqFIrSQQyIn0LAgRgtXNUbOXcJwtHrr-otwzNL08xt&s=10);
+    background-repeat:no-repeat ;//image ektai thkbe no repeat dile
+    background-position:right; //image k kon side e rakhbo tar jonno
+}

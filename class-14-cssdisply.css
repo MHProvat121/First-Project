@@ -1,0 +1,15 @@
+h1{
+    
+    /* h1 block element k inline e conversion */
+    display:inline-block; /* display value none o ase */
+}
+span{
+    
+    /* span inline element k block e convert korlam */
+    display: block;
+}
+
+ul li{
+    display:inline;
+    
+}

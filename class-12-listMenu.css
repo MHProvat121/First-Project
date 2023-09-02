@@ -1,0 +1,13 @@
+ul{
+    
+    list-style-type:circle;/* value square,roman,upperroman,alpha,upperalpha,decimal-leading-zero hote pare */
+    list-style-position:outside;
+    /* point gulake image dia show korbe */
+    list-style-image: url(star.png);
+}
+
+/* ek line e list er css  */
+.list1{
+    list-style: square inside url(star.png);
+    
+}

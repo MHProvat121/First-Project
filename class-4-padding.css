@@ -1,0 +1,58 @@
+.padd1{
+    width:500px ;
+    height:400px;
+    background-color:green;
+    padding-top: 50px;
+    pafding-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 80px;
+    
+}
+
+/* padding shondike 50px  */
+
+
+.padd2{
+    width:500px ;
+    height:400px;
+    background-color:red;
+    padding: 50px;
+}
+
+/* padding upre nice 50, dane bame 60 */
+
+.padd3{
+width:500px ;
+    height:400px;
+    background-color:blue;
+    padding:50px 60px;
+}
+
+/* padding upre 50,  danebame 60, niche 70 */
+
+.padd4{
+    
+    width:500px ;
+    height:400px;
+    background-color:yellow;  
+    padding: 50px.60px 70px;
+     
+}
+
+/* padding upre 50,dane 60, niche 70, bame 80  */
+.padd5{
+    
+   width:500px ;
+    height:400px;
+    background-color:tomato;
+    padding: 50px 60px 70px 80px; 
+    
+}
+/* auto padding */
+.padd6{
+    width:500px ;
+    height:400px;
+    background-color:pink;
+    padding: auto; 
+    
+}
