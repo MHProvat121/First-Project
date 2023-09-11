@@ -1,0 +1,40 @@
+*{/* star diye full body er shob property k daka hoy */
+margin=0;
+padding=0;
+box-sizing:border - box ;
+background-color:white;
+font-family:arial;
+text-align:center;
+
+}
+
+main{
+    width:75%;
+    padding:50px auto;
+    border:1px solid black;
+    color:white;
+    display:grid;/* grid format */
+    grid-gap:10px;
+    grid-template-rows:50px 100px 200px 60px;/* 
+    row er thke 1st row height =50px,2nd row =100 px etc  */
+    grid-template-columns:repeat(3,1fr) 150px;
+    
+    /* 
+repeat e 3 ta col hbe r tader shbdike 1fr spacing hbe.size hbe 150px kore sobar
+*/
+    
+}
+
+.div1{background-color:red;
+grid-column:1/-1;}/*full column/column 1 theke -1 bistar*/
+.div2{background-color :green;}
+.div3{background-color:purple;}
+.div4{background-color:yellow;
+}
+
+.div5{background-color:tomato;grid-row:2/4;
+grid-column:4/5;}
+.div6{background-color:pink;
+grid-column: 1/4}/* 1/4 mane column 1 theke 4 porjonto bistar korbe */
+.div7{background-color:violet;
+grid-column:1/-1}

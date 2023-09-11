@@ -1,0 +1,69 @@
+  
+  body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color: white;        
+  }
+    /* CSS for the header */      
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        /* CSS for the navigation bar */
+        
+ /* this isto give navbar position */       
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.navbar ul
+{
+list-style: none; /* list-style, list theke points out kore dibe  */
+}
+
+    /* all list item in design */    
+       .navbar ul li{
+background-color: #262626;
+width: 170px;
+border: 1px solid #fff;
+height: 50px;
+line-height: 50px;
+text-align: center;
+float: left;
+color: white;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+position: relative;
+}
+/* inside list anchor design */
+.navbar ul li a{
+text-decoration: none;
+color: white;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+/* list hover design */
+.navbar ul li:hover {
+background-color: crimson;
+transition:all ease-in 0.5s;
+}
+
+/* list er vitore ul thakle oita hide thakbe */
+.navbar ul ul{
+    display : none;
+}
+
+/* list er vitore ul thakle oita hide thakbe ar hover korle show korbe*/
+.navbar ul li:hover>ul { 
+display:block;
+}
+
