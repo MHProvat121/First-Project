@@ -1,0 +1,16 @@
+/* Form Start */
+.form1{
+background-color: crimson;
+color: white;
+text-align: center;
+font-size: 40px;
+margin: 0 auto;
+width: fit-content;
+height: fit-content;
+padding: 20px 80px;
+margin-top: 30px;
+border-radius: 5%;
+}
+.form1 input{
+    border-radius: 30%;
+}
