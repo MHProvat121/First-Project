@@ -1,0 +1,17 @@
+.border{
+    border: 5px solid linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red);;
+    width: 100px;
+   
+      
+  
+
+}
+.hire{
+    height: 50px;
+    width: 100px;
+    background-color: blanchedalmond;
+    text-align: center;
+    line-height: 300%;
+    border-radius: 15%;
+    animation: hire 2s infinite forwards;
+}

@@ -1,0 +1,19 @@
+.flexbox{
+    background-color: aqua;
+    font-size: 35px;
+    /*amra flex use kori responsive korar jonno*/
+    display: flex; /*flex, inline-block egula holo display property*/
+     /*responsive akare wrap hobe mane ekline theke onno line e chole jabe*/
+    flex-wrap: wrap; 
+    /*flex-wrap:reverse-wrap; wrap er ulta ta. wrap e uprer theke nich line e jay, etay nich tehek upore uthe */
+    flex-direction: row-reverse; /*reverse-column o ase*/
+   /*flex proprety k ine line elikhar niom*/
+    flex-flow: wrap row; /*eta mane row ta wrap hobe*/
+
+}
+.flexbox>div{
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}

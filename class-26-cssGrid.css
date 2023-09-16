@@ -15,26 +15,20 @@ main{
     color:white;
     display:grid;/* grid format */
     grid-gap:10px;
-    grid-template-rows:50px 100px 200px 60px;/* 
+    grid-template-rows:50px 100px 200px 60px;/* ekhane div1 first row, div2,3,4 second row,main content 3rd row ar footer 4th row te hisab kore pixel dea hoise
     row er thke 1st row height =50px,2nd row =100 px etc  */
     grid-template-columns:repeat(3,1fr) 150px;
     
     /* 
-repeat e 3 ta col hbe r tader shbdike 1fr spacing hbe.size hbe 150px kore sobar
+repeat e 3 ta col hbe (div1,2,3) r tader shbdike 1fr spacing hbe.size hbe 150px kore sobar
 */
     
 }
 
-.div1{background-color:red;
-grid-column:1/-1;}/*full column/column 1 theke -1 bistar*/
+.div1{background-color:red; grid-column:1/-1;}/*full column/column 1 theke -1 bistar*/
 .div2{background-color :green;}
 .div3{background-color:purple;}
-.div4{background-color:yellow;
-}
-
-.div5{background-color:tomato;grid-row:2/4;
-grid-column:4/5;}
-.div6{background-color:pink;
-grid-column: 1/4}/* 1/4 mane column 1 theke 4 porjonto bistar korbe */
-.div7{background-color:violet;
-grid-column:1/-1}
+.div4{background-color:yellow;}
+.div5{background-color:tomato; grid-row:2/4; grid-column:4/5;} /*ekhane sidebar row 2 theke 4(2 ta row block korse)  ar colum 4 theke 5 porjonto (1 ta column block korse) bistar korbe*/
+.div6{background-color:pink; grid-column: 1/4}/* 1/4 mane div 6 (main content) column 1 theke 4 porjonto bistar korbe */
+.div7{background-color:violet; grid-column:1/-1}
